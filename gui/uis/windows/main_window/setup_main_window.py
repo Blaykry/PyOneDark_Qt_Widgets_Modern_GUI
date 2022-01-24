@@ -56,7 +56,7 @@ class SetupMainWindow:
         self.ui = UI_MainWindow()
         self.ui.setup_ui(self)
 
-    # ADD LEFT MENUS
+    # ADD LEFT MENUS - Voci che compaiono nel menù di sinistra con icone e voce. 
     # ///////////////////////////////////////////////////////////////
     add_left_menus = [
         {
@@ -70,56 +70,56 @@ class SetupMainWindow:
         {
             "btn_icon" : "icon_widgets.svg",
             "btn_id" : "btn_widgets",
-            "btn_text" : "Show Custom Widgets",
-            "btn_tooltip" : "Show custom widgets",
+            "btn_text" : "Mostra Widgets personalizzati",
+            "btn_tooltip" : "Mostra Widgets personalizzati",
             "show_top" : True,
             "is_active" : False
         },
         {
             "btn_icon" : "icon_add_user.svg",
             "btn_id" : "btn_add_user",
-            "btn_text" : "Add Users",
-            "btn_tooltip" : "Add users",
+            "btn_text" : "Aggiungi utente",
+            "btn_tooltip" : "Aggiungi utente",
             "show_top" : True,
             "is_active" : False
         },
         {
             "btn_icon" : "icon_file.svg",
             "btn_id" : "btn_new_file",
-            "btn_text" : "New File",
-            "btn_tooltip" : "Create new file",
+            "btn_text" : "Nuovo File",
+            "btn_tooltip" : "Crea nuovo file",
             "show_top" : True,
             "is_active" : False
         },
         {
             "btn_icon" : "icon_folder_open.svg",
             "btn_id" : "btn_open_file",
-            "btn_text" : "Open File",
-            "btn_tooltip" : "Open file",
+            "btn_text" : "Apri File",
+            "btn_tooltip" : "Apri file",
             "show_top" : True,
             "is_active" : False
         },
         {
             "btn_icon" : "icon_save.svg",
             "btn_id" : "btn_save",
-            "btn_text" : "Save File",
-            "btn_tooltip" : "Save file",
+            "btn_text" : "Salva File",
+            "btn_tooltip" : "Salva file",
             "show_top" : True,
             "is_active" : False
         },
         {
             "btn_icon" : "icon_info.svg",
             "btn_id" : "btn_info",
-            "btn_text" : "Information",
-            "btn_tooltip" : "Open informations",
+            "btn_text" : "Informazioni",
+            "btn_tooltip" : "Apri informazioni",
             "show_top" : False,
             "is_active" : False
         },
         {
             "btn_icon" : "icon_settings.svg",
             "btn_id" : "btn_settings",
-            "btn_text" : "Settings",
-            "btn_tooltip" : "Open settings",
+            "btn_text" : "Impostazioni",
+            "btn_tooltip" : "Apri impostazioni",
             "show_top" : False,
             "is_active" : False
         }
@@ -131,13 +131,13 @@ class SetupMainWindow:
         {
             "btn_icon" : "icon_search.svg",
             "btn_id" : "btn_search",
-            "btn_tooltip" : "Search",
+            "btn_tooltip" : "Cerca",
             "is_active" : False
         },
         {
             "btn_icon" : "icon_settings.svg",
             "btn_id" : "btn_top_settings",
-            "btn_tooltip" : "Top settings",
+            "btn_tooltip" : "Impostazioni Profilo",
             "is_active" : False
         }
     ]
